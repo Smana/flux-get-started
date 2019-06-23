@@ -18,8 +18,8 @@ spec:
     version: 4.2.10
   values:
     image:
-      repository: bitnami/redis
-      tag: 4.0.11
+      repository: quay.io/bitnami/redis 
+      tag: 5.0
     service:
       type: ClusterIP
       port: 6379
